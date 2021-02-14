@@ -31,9 +31,9 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-  var multiArr = [];
-  var theAns = a * b;
+function multiply(a, b) {
+  let multiArr = [];
+  let theAns = a * b;
   multiArr[0] = theAns;
   multiArr[1] = 'The product of ' +a+ ' and '+b+' is '+theAns+'.'
   return multiArr;
